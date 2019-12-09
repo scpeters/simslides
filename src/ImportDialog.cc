@@ -312,8 +312,8 @@ void ImportDialog::OnLoadPDF()
     gzmsg << "Converting PDF [" << this->dataPtr->pdfLabel->text().toStdString()
           << "] to images" << std::endl;
     this->dataPtr->convertProcess->start("convert", QStringList() <<
-        "-density" << "150" <<
-        "-quality" << "100" <<
+        "-density" << "72" <<
+        "-quality" << "50" <<
         "-sharpen" << "0x1.0" <<
         this->dataPtr->pdfLabel->text() <<
         QString(this->dataPtr->tmpDir + "/tmpPng.png"));
