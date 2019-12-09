@@ -18,7 +18,6 @@
 
 #include "Common.hh"
 #include "ImportDialog.hh"
-#include "InsertActorDialog.hh"
 #include "LoadDialog.hh"
 #include "PresentMode.hh"
 #include "Simslides.hh"
